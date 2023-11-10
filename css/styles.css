@@ -127,6 +127,7 @@ ul {
 .company_title {
     color: var(--black_lighter);
     font-weight: 700;
+    font-size: 16px;
     letter-spacing: 0.42px;
     text-transform: uppercase;
 }
