@@ -51,12 +51,15 @@ img {
     height: 80px;
 }
 
+.header_nav {
+    margin-right: 93px;
+}
+
 .header_container,
 .header_nav_list,
 .header_contacts {
     display: flex;
     align-items: center;
-    margin-left: 93px;
 }
 
 .section {
@@ -69,7 +72,6 @@ img {
     font-size: 26px;
     font-weight: 700;
     letter-spacing: 0.78px;
-    margin-bottom: 28px;
 }
 
 .web {
@@ -213,7 +215,7 @@ ul {
     color: var(--gray);
     line-height: 171.429%;
     letter-spacing: 0.42px;
-    width: 270px;
+    max-width: 270px;
 }
 
 .works{
@@ -290,8 +292,12 @@ ul {
     margin: 0 auto;
 }
 
+.footer
+.logo{
+    margin-bottom: 28px;
+}
 .footer_studio {
-    color: var(--white);
+    color: var(--white)
 }
 
 .footer_list {
@@ -299,7 +305,7 @@ ul {
 }
 
 .contact_info_item:not(:last-child) {
-    margin: 12px 0;
+    margin-bottom: 12px;
 }
 
 .footer_address {
@@ -345,7 +351,6 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
-    margin-bottom: 50px;
 }
 
 .menu_button {
