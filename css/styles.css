@@ -16,6 +16,7 @@ body {
     font-size: 14px;
     font-weight: 400;
     background-color: var(--white);
+    margin: 0  auto;
 }
 
 h1,
@@ -29,7 +30,7 @@ p {
 }
 
 img {
-    display: block;
+    display: inline-block;
     max-width: 100%;
     height: auto;
 }
@@ -281,6 +282,7 @@ ul {
     background-color: var(--black_gray);
     padding-top: 60px;
     padding-bottom: 60px;
+    margin: 0 auto;
 }
 
 .footer_studio {
@@ -338,14 +340,18 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
+
 }
 
 .menu_button {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 162.5%;
     text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 162.5%;
     letter-spacing: 0.48px;
+    text-align: center;
     border: none;
     background-color: var(--white_gray);
     border-radius: 4px;
@@ -402,11 +408,8 @@ a {
     background-color: var(--white);
     border: 1px solid #eeeeee;
     border-radius: 0px 0px 4px 4px;
-
-    width: calc((100% - 60px) / 3);
 }
 
 .project_p {
     padding: 20px 24px;
-    border: solid 1px #eeeeee;
 }
