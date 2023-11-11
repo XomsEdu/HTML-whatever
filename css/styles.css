@@ -355,6 +355,9 @@ ul {
     justify-content: center;
     flex-wrap: wrap;
     gap: 8px;
+}
+
+ul.menu_filter{
     margin-bottom: 50px;
 }
 
