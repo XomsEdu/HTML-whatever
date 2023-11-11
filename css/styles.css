@@ -75,6 +75,8 @@ img {
 
 .header_nav_list {
     list-style: none;
+    gap: 50px;
+    margin-left: 93px;
 }
 
 .header_nav_link {
@@ -141,7 +143,7 @@ ul {
 
 .hero {
     background-color: var(--black_gray);
-    height: 600px;
+    max-height: 600px;
     padding-top: 200px;
     padding-bottom: 280px;
     text-align: center;
@@ -209,6 +211,10 @@ ul {
     width: 270px;
 }
 
+.works{
+    margin-bottom:94px ;
+    margin-top: 94px;
+}
 .works_title {
     color: var(--black_lighter);
     font-size: 36px;
@@ -225,6 +231,7 @@ ul {
 
 .team {
     background-color: var(--white_gray);
+    margin-bottom: 94px;
 }
 
 .team_title {
